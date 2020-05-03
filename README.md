@@ -22,29 +22,29 @@ This is a memory game where players open around a set of given tiles then match 
 http://pokeapi.co/ - The API is used to get the Pokemon sprites, Pokemon name, Pokemon type to be displayed in PokeDex in the game.
 
 ## User Journey
-![](https://drive.google.com/file/d/1cEKb0j0dSO4jBMlHEF7twiT_5WJW6QZ7/view)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/1.png)
 The user will be prompted to enter name to play or play anonymously without name input. User will not be able to use continue game if name is blank. If users are to put in a name and click continue, it will create a new user with the name provided.
 
-![](https://drive.google.com/open?id=1xAyDIeY8uDw8Nm6oFWMoy3k1lZC3woql)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/2.png)
 After the first page, user will then be prompted to choose from 4 difficulties level and to view his/her current PokeDex. As database structure has yet been introduced here, the user progress will be lost once the browser reload. The name that user typed in will be displayed on top as circled in red. The user will not require password to login as of now as this is just the very beginning stage of gaming.
 
-![](https://drive.google.com/open?id=17CYJtwt6WvShMmCZvfrXHSwUANnnt52s)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/3.png)
 Picture above shows when user click on PokeDex and user is viewing the info of the captured Pokemon. The picture and info of the Pokemon is taken from API.
 
-![](https://drive.google.com/open?id=1ZCMCE2VnAggN2G74nVxa8WhEJUNi1fpO)
-![](https://drive.google.com/open?id=1NGSWT2cbyK1tDvz2b9XP-HuGDWJPHgu3)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/4.png)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/5.png)
 Upon selecting the difficulty level, tiles will be arranged to the HTML and user will be required to empty the tiles by trying to match the tiles. Supposingly the original intention of game design is the target Pokemon to be captured. However, the API returned picture is not quite clear and due to the time constraint, it may be improved.
 
-![](https://drive.google.com/open?id=1EYwLnJENthDBWYkKhXysDXmyTX-hTp39)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/6.png)
 The Pokemon "ran away" because user were not able to finish the game in time. Prompt user to try again?
 
-![](https://drive.google.com/open?id=1dxkZeLCHfmhKM5_Lsx9eINTePZis38Z6)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/7.png)
 Upon completing the game, user will be prompted successfully captured the Pokemon. This Pokemon is generated randomly.
 
-![](https://drive.google.com/open?id=11ZC6lxh1bdqBQlpCumpsO1PKncZELwYY)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/8.png)
 The Pokemon is added and shown in the PokeDex.
 
-![](https://drive.google.com/open?id=1qH8Z-Na-sZEjMswKLqSHOVm1WdLIt7nv)
+![](https://github.com/siewkhee1990/siewkhee1990.github.io/blob/master/userjourney/9.png)
 And the Pokemon info can be shown upon clicking view and the info is from API server.
 
 ## Accomplishment / Lesson Learnt
