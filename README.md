@@ -6,7 +6,7 @@ This is a memory game where players open around a set of given tiles then match 
 
 ## Game Link
 
-[Memory Game - Pokemon](https://)
+[Memory Game - Pokemon](https://github.com/siewkhee1990/siewkhee1990.github.io)
 [other link](https://lo1ld.csb.app/)
 
 ## Technologies
