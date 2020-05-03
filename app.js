@@ -44,9 +44,8 @@ let getDefault;
 let userInfo = { ID: ['danny', 'adam', 'bernard'], password: ['1234', '2234', '3234'], cumScore: [0, 0, 0], cumPokemonID: [{ PokeID: [1, 4, 7] }, { PokeID: [1, 4, 7] }, { PokeID: [1, 4, 7] }] };
 let interval;
 let getPokemon;
-
 let matchedAudio;
-
+    
 function sound(src) {
     this.sound = document.createElement("audio");
     this.sound.src = src;
@@ -54,15 +53,15 @@ function sound(src) {
     this.sound.setAttribute("controls", "none");
     this.sound.style.display = "none";
     document.body.appendChild(this.sound);
-    this.play = function(){
-      this.sound.play();
+    this.play = function () {
+        this.sound.play();
     }
-    this.stop = function(){
-      this.sound.pause();
+    this.stop = function () {
+        this.sound.pause();
     }
 }
 
-function matchedSound (){
+function matchedSound() {
     matchedAudio = new sound('src/sound/pikachu.mp3');
     matchedAudio.play();
 }
@@ -479,7 +478,7 @@ $(() => {
             let e = apiLibrary.getPokemonNamebyID(getPokemon);
             $('#popup3 .popup .content-2 p:last').empty();
             $('#popup3 .popup .content-2 p:last').html('and you caught ' + e + '!');
-            if (!userInfo.cumPokemonID[d].PokeID.includes(getPokemon)){
+            if ( d >= 0 && !userInfo.cumPokemonID[d].PokeID.includes(getPokemon)) {
                 userInfo.cumPokemonID[d].PokeID.push(getPokemon);
             };
             clearInterval(interval);
