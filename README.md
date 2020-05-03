@@ -6,7 +6,7 @@ This is a memory game where players open around a set of given tiles then match 
 
 ## Game Link
 
-[Memory Game - Pokemon](https://)
+[Memory Game - Pokemon](https://github.com/siewkhee1990/siewkhee1990.github.io)
 [other link](https://lo1ld.csb.app/)
 
 ## Technologies
@@ -22,7 +22,7 @@ This is a memory game where players open around a set of given tiles then match 
 http://pokeapi.co/ - The API is used to get the Pokemon sprites, Pokemon name, Pokemon type to be displayed in PokeDex in the game.
 
 ## User Journey
-![](https://drive.google.com/open?id=1cEKb0j0dSO4jBMlHEF7twiT_5WJW6QZ7)
+![](https://drive.google.com/file/d/1cEKb0j0dSO4jBMlHEF7twiT_5WJW6QZ7/view)
 The user will be prompted to enter name to play or play anonymously without name input. User will not be able to use continue game if name is blank. If users are to put in a name and click continue, it will create a new user with the name provided.
 
 ![](https://drive.google.com/open?id=1xAyDIeY8uDw8Nm6oFWMoy3k1lZC3woql)
