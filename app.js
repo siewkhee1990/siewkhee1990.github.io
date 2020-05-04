@@ -245,7 +245,11 @@ function startTimer() {
 
 // when selected game mode, the page will dissolve then popup modes to select
 window.selectGameMode = () => {
-    $('.greet-user').html('Hello ' + getCurrentUser());
+    let a = getCurrentUser();
+    if ((userInfo.ID.indexOf(a)) < 0) {
+        createUser(a);
+    };
+    $('.greet-user').html('Hello ' + a);
     $("[id^=popup]").removeClass('popshow');
     $('#popup2').addClass('popshow');
     closePopUp();
@@ -269,7 +273,7 @@ window.checkExistingID = () => {
         alert('Please enter your name!');
     } else if ((userInfo.ID.indexOf(b)) >= 0) {
         selectGameMode();
-    } else if ((userInfo.ID.indexOf(b)) <= 0) {
+    } else if ((userInfo.ID.indexOf(b)) < 0) {
         createUser(b);
         selectGameMode();
     };
@@ -327,10 +331,6 @@ $(() => {
 
     // start page to load first when page loaded
     function startPage() {
-        let a = getCurrentUser();
-        if ((userInfo.ID.indexOf(a)) <= 0) {
-            createUser(a);
-        };
         $('#popup1').addClass('popshow');
         closePopUp();
     };
