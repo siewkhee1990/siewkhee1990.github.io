@@ -327,6 +327,10 @@ $(() => {
 
     // start page to load first when page loaded
     function startPage() {
+        let a = getCurrentUser();
+        if ((userInfo.ID.indexOf(a)) <= 0) {
+            createUser(a);
+        };
         $('#popup1').addClass('popshow');
         closePopUp();
     };
